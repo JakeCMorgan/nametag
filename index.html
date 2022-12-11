@@ -10,9 +10,9 @@
     <script type="module" src="app.js"></script>
 
     <!-- put css fonts here -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&family=Satisfy&family=Space+Mono&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-
+    
     <title>My Project</title>
 </head>
 
@@ -22,7 +22,28 @@
     </header>
 
     <main>
+        <p>
+            Name
+            <input id="name-input"> 
+        </p>
+        <p>
+            Pronouns
+            <input id="pronoun-input">
+            <button id="update-button">Update</button>
+        </p>
+        <p>
+            Event Role
+            <button id="guest-button">Guest</button>
+            <button id="staff-button">Staff</button>
+        </p>
 
+        <div id="nametag" class="nametag">
+            <p class="greeting">Hello</p>
+            <p>my name is</p>
+            <p id="name-display" class="name">Felix</p>
+            <p id="pronouns-display" class="pronouns"></p>
+            <p id="role-display" class="role">Undefined Role</p>
+        </div>
     </main>
 
 </body>

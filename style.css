@@ -28,3 +28,33 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.nametag {
+    background: rgb(235, 187, 132);
+    padding-bottom: 5px;
+    width: 400px;
+    text-align: center;
+    font: Kanit;
+}
+
+.greeting {
+    color: white;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bolder;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.name {
+    background: white;
+    color: black;
+    padding: 5px 0;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.role {
+    color: white;
+    font-size: 2em;
+}
